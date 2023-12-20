@@ -1,0 +1,213 @@
+<svg aria-roledescription="er" role="graphics-document document" viewBox="0 0 149.5 603.234375" style="max-width: 100%;" xmlns="http://www.w3.org/2000/svg" width="200pt" id="graph-div" height="100%" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style>
+    @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+    '
+  </style>
+  <style>
+    #graph-div {
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-size: 16px;
+      fill: #ccc;
+    }
+
+    #graph-div .error-icon {
+      fill: #a44141;
+    }
+
+    #graph-div .error-text {
+      fill: #ddd;
+      stroke: #ddd;
+    }
+
+    #graph-div .edge-thickness-normal {
+      stroke-width: 2px;
+    }
+
+    #graph-div .edge-thickness-thick {
+      stroke-width: 3.5px;
+    }
+
+    #graph-div .edge-pattern-solid {
+      stroke-dasharray: 0;
+    }
+
+    #graph-div .edge-pattern-dashed {
+      stroke-dasharray: 3;
+    }
+
+    #graph-div .edge-pattern-dotted {
+      stroke-dasharray: 2;
+    }
+
+    #graph-div .marker {
+      fill: lightgrey;
+      stroke: lightgrey;
+    }
+
+    #graph-div .marker.cross {
+      stroke: lightgrey;
+    }
+
+    #graph-div svg {
+      font-family: "trebuchet ms", verdana, arial, sans-serif;
+      font-size: 16px;
+    }
+
+    #graph-div .entityBox {
+      fill: #1f2020;
+      stroke: #81B1DB;
+    }
+
+    #graph-div .attributeBoxOdd {
+      fill: hsl(0, 0%, 32%);
+      stroke: #81B1DB;
+    }
+
+    #graph-div .attributeBoxEven {
+      fill: hsl(0, 0%, 22%);
+      stroke: #81B1DB;
+    }
+
+    #graph-div .relationshipLabelBox {
+      fill: hsl(20, 1.5873015873%, 12.3529411765%);
+      opacity: 0.7;
+      background-color: hsl(20, 1.5873015873%, 12.3529411765%);
+    }
+
+    #graph-div .relationshipLabelBox rect {
+      opacity: 0.5;
+    }
+
+    #graph-div .relationshipLine {
+      stroke: lightgrey;
+    }
+
+    #graph-div .entityTitleText {
+      text-anchor: middle;
+      font-size: 18px;
+      fill: #ccc;
+    }
+
+    #graph-div #MD_PARENT_START {
+      fill: #f5f5f5 !important;
+      stroke: lightgrey !important;
+      stroke-width: 1;
+    }
+
+    #graph-div #MD_PARENT_END {
+      fill: #f5f5f5 !important;
+      stroke: lightgrey !important;
+      stroke-width: 1;
+    }
+
+    #graph-div :root {
+      --mermaid-font-family: "trebuchet ms", verdana, arial, sans-serif;
+    }
+  </style>
+  <g></g>
+  <defs>
+    <marker orient="auto" markerHeight="240" markerWidth="190" refY="7" refX="0" id="MD_PARENT_START">
+      <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+    </marker>
+  </defs>
+  <defs>
+    <marker orient="auto" markerHeight="28" markerWidth="20" refY="7" refX="19" id="MD_PARENT_END">
+      <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+    </marker>
+  </defs>
+  <defs>
+    <marker orient="auto" markerHeight="18" markerWidth="18" refY="9" refX="0" id="ONLY_ONE_START">
+      <path d="M9,0 L9,18 M15,0 L15,18" fill="none" stroke="gray"></path>
+    </marker>
+  </defs>
+  <defs>
+    <marker orient="auto" markerHeight="18" markerWidth="18" refY="9" refX="18" id="ONLY_ONE_END">
+      <path d="M3,0 L3,18 M9,0 L9,18" fill="none" stroke="gray"></path>
+    </marker>
+  </defs>
+  <defs>
+    <marker orient="auto" markerHeight="18" markerWidth="30" refY="9" refX="0" id="ZERO_OR_ONE_START">
+      <circle r="6" cy="9" cx="21" fill="white" stroke="gray"></circle>
+      <path d="M9,0 L9,18" fill="none" stroke="gray"></path>
+    </marker>
+  </defs>
+  <defs>
+    <marker orient="auto" markerHeight="18" markerWidth="30" refY="9" refX="30" id="ZERO_OR_ONE_END">
+      <circle r="6" cy="9" cx="9" fill="white" stroke="gray"></circle>
+      <path d="M21,0 L21,18" fill="none" stroke="gray"></path>
+    </marker>
+  </defs>
+  <defs>
+    <marker orient="auto" markerHeight="36" markerWidth="45" refY="18" refX="18" id="ONE_OR_MORE_START">
+      <path d="M0,18 Q 18,0 36,18 Q 18,36 0,18 M42,9 L42,27" fill="none" stroke="gray"></path>
+    </marker>
+  </defs>
+  <defs>
+    <marker orient="auto" markerHeight="36" markerWidth="45" refY="18" refX="27" id="ONE_OR_MORE_END">
+      <path d="M3,9 L3,27 M9,18 Q27,0 45,18 Q27,36 9,18" fill="none" stroke="gray"></path>
+    </marker>
+  </defs>
+  <defs>
+    <marker orient="auto" markerHeight="36" markerWidth="57" refY="18" refX="18" id="ZERO_OR_MORE_START">
+      <circle r="6" cy="18" cx="48" fill="white" stroke="gray"></circle>
+      <path d="M0,18 Q18,0 36,18 Q18,36 0,18" fill="none" stroke="gray"></path>
+    </marker>
+  </defs>
+  <defs>
+    <marker orient="auto" markerHeight="36" markerWidth="57" refY="18" refX="39" id="ZERO_OR_MORE_END">
+      <circle r="6" cy="18" cx="9" fill="white" stroke="gray"></circle>
+      <path d="M21,18 Q39,0 57,18 Q39,36 21,18" fill="none" stroke="gray"></path>
+    </marker>
+  </defs>
+  <path style="stroke: gray; fill: none;" marker-start="url(#ONE_OR_MORE_START)" marker-end="url(#ONLY_ONE_END)" d="M74.75,262.547L74.75,270.88C74.75,279.214,74.75,295.88,74.75,312.547C74.75,329.214,74.75,345.88,74.75,354.214L74.75,362.547" class="er relationshipLine"></path>
+  <g transform="translate(20,180 )" id="entity-User-818c511a-4a32-5484-ba70-875d765a9175">
+    <rect height="64.768125" width="109.5" y="0" x="0" class="er entityBox"></rect>
+    <text style="dominant-baseline: middle; text-anchor: middle; font-size: 12px;" transform="translate(54.75,11.9765625)" y="0" x="0" id="text-entity-User-818c511a-4a32-5484-ba70-875d765a9175" class="er entityLabel">User</text>
+    <rect height="21.859375" width="35.75" y="23.953125" x="0" class="er attributeBoxOdd"></rect>
+    <text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(5,34.8828125)" y="0" x="0" id="text-entity-User-818c511a-4a32-5484-ba70-875d765a9175-attr-1-type" class="er entityLabel">uint</text>
+    <rect height="21.859375" width="73.75" y="23.953125" x="35.75" class="er attributeBoxOdd"></rect>
+    <text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(40.75,34.8828125)" y="0" x="0" id="text-entity-User-818c511a-4a32-5484-ba70-875d765a9175-attr-1-name" class="er entityLabel">ID</text>
+    <rect height="21.859375" width="35.75" y="45.8125" x="0" class="er attributeBoxEven"></rect>
+    <text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(5,56.7421875)" y="0" x="0" id="text-entity-User-818c511a-4a32-5484-ba70-875d765a9175-attr-2-type" class="er entityLabel">string</text>
+    <rect height="21.859375" width="73.75" y="45.8125" x="35.75" class="er attributeBoxEven"></rect>
+    <text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(40.75,56.7421875)" y="0" x="0" id="text-entity-User-818c511a-4a32-5484-ba70-875d765a9175-attr-2-name" class="er entityLabel">Name</text>
+    <rect height="21.859375" width="35.75" y="67.671875" x="0" class="er attributeBoxOdd"></rect>
+    <text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(5,78.6015625)" y="0" x="0" id="text-entity-User-818c511a-4a32-5484-ba70-875d765a9175-attr-3-type" class="er entityLabel">bool</text>
+    <rect height="21.859375" width="73.75" y="67.671875" x="35.75" class="er attributeBoxOdd"></rect>
+    <text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(40.75,78.6015625)" y="0" x="0" id="text-entity-User-818c511a-4a32-5484-ba70-875d765a9175-attr-3-name" class="er entityLabel">IsCompleted</text>
+  </g>
+  <g transform="translate(24.75,362.546875 )" id="entity-Shopping-f1894dd5-66ed-535c-b897-42d50c50b910">
+    <rect height="153.015625" width="100" y="0" x="0" class="er entityBox"></rect>
+    <text style="dominant-baseline: middle; text-anchor: middle; font-size: 12px;" transform="translate(50,11.9765625)" y="0" x="0" id="text-entity-Shopping-f1894dd5-66ed-535c-b897-42d50c50b910" class="er entityLabel">ShoppingList</text>
+    <rect height="21.859375" width="36.171875" y="23.953125" x="0" class="er attributeBoxOdd"></rect>
+    <text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(5,34.8828125)" y="0" x="0" id="text-entity-Shopping-f1894dd5-66ed-535c-b897-42d50c50b910-attr-1-type" class="er entityLabel">uint</text>
+    <rect height="21.859375" width="63.828125" y="23.953125" x="36.171875" class="er attributeBoxOdd"></rect>
+    <text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(41.171875,34.8828125)" y="0" x="0" id="text-entity-Shopping-f1894dd5-66ed-535c-b897-42d50c50b910-attr-1-name" class="er entityLabel">ID</text>
+    <rect height="21.859375" width="36.171875" y="45.8125" x="0" class="er attributeBoxEven"></rect>
+    <text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(5,56.7421875)" y="0" x="0" id="text-entity-Shopping-f1894dd5-66ed-535c-b897-42d50c50b910-attr-2-type" class="er entityLabel">uint</text>
+    <rect height="21.859375" width="63.828125" y="45.8125" x="36.171875" class="er attributeBoxEven"></rect>
+    <text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(41.171875,56.7421875)" y="0" x="0" id="text-entity-Shopping-f1894dd5-66ed-535c-b897-42d50c50b910-attr-2-name" class="er entityLabel">OwnerID</text>
+    <rect height="21.859375" width="36.171875" y="67.671875" x="0" class="er attributeBoxOdd"></rect>
+    <text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(5,78.6015625)" y="0" x="0" id="text-entity-Shopping-f1894dd5-66ed-535c-b897-42d50c50b910-attr-3-type" class="er entityLabel">string</text>
+    <rect height="21.859375" width="63.828125" y="67.671875" x="36.171875" class="er attributeBoxOdd"></rect>
+    <text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(41.171875,78.6015625)" y="0" x="0" id="text-entity-Shopping-f1894dd5-66ed-535c-b897-42d50c50b910-attr-3-name" class="er entityLabel">Name</text>
+    <rect height="21.859375" width="36.171875" y="89.53125" x="0" class="er attributeBoxEven"></rect>
+    <text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(5,100.4609375)" y="0" x="0" id="text-entity-Shopping-f1894dd5-66ed-535c-b897-42d50c50b910-attr-4-type" class="er entityLabel">ListItem</text>
+    <rect height="21.859375" width="63.828125" y="89.53125" x="36.171875" class="er attributeBoxEven"></rect>
+    <text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(41.171875,100.4609375)" y="0" x="0" id="text-entity-Shopping-f1894dd5-66ed-535c-b897-42d50c50b910-attr-4-name" class="er entityLabel">Items</text>
+    <rect height="21.859375" width="36.171875" y="111.390625" x="0" class="er attributeBoxOdd"></rect>
+    <text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(5,122.3203125)" y="0" x="0" id="text-entity-Shopping-f1894dd5-66ed-535c-b897-42d50c50b910-attr-5-type" class="er entityLabel">uint</text>
+    <rect height="21.859375" width="63.828125" y="111.390625" x="36.171875" class="er attributeBoxOdd"></rect>
+    <text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(41.171875,122.3203125)" y="0" x="0" id="text-entity-Shopping-f1894dd5-66ed-535c-b897-42d50c50b910-attr-5-name" class="er entityLabel">SharingIds</text>
+    <rect height="21.859375" width="36.171875" y="133.25" x="0" class="er attributeBoxEven"></rect>
+    <text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(5,144.1796875)" y="0" x="0" id="text-entity-Shopping-f1894dd5-66ed-535c-b897-42d50c50b910-attr-6-type" class="er entityLabel">uint</text>
+    <rect height="21.859375" width="63.828125" y="133.25" x="36.171875" class="er attributeBoxEven"></rect>
+    <text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(41.171875,144.1796875)" y="0" x="0" id="text-entity-Shopping-f1894dd5-66ed-535c-b897-42d50c50b910-attr-6-name" class="er entityLabel">SharingInviteIds</text>
+    <rect height="21.859375" width="36.171875" y="155.109375" x="0" class="er attributeBoxOdd"></rect>
+    <text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(5,166.0390625)" y="0" x="0" id="text-entity-Shopping-f1894dd5-66ed-535c-b897-42d50c50b910-attr-7-type" class="er entityLabel">string</text>
+    <rect height="21.859375" width="63.828125" y="155.109375" x="36.171875" class="er attributeBoxOdd"></rect>
+    <text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(41.171875,166.0390625)" y="0" x="0" id="text-entity-Shopping-f1894dd5-66ed-535c-b897-42d50c50b910-attr-7-name" class="er entityLabel">SharingNames</text>
+  </g>
+  <rect height="13.953125" width="55.78125" y="305.5704345703125" x="46.859375" class="er relationshipLabelBox"></rect>
+  <text style="text-anchor: middle; dominant-baseline: middle; font-size: 12px;" y="312.5469970703125" x="74.75" id="rel324" class="er relationshipLabel">FK: UserID</text>
+</svg>
