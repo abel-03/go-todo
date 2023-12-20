@@ -1,4 +1,4 @@
-module go-todo
+module github.com/abel-03/go-todo
 
 go 1.19
 
